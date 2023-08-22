@@ -1,7 +1,7 @@
 .cabecalho__menu-hamburger {
     width: 1.5rem;
     height: 1.5rem;
-    background-image: url(assets/Menu.svg);
+    background-image: url(../assets/Menu.svg);
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
@@ -29,6 +29,10 @@
     position: absolute;
     top: 100%;
     width: 65vw;
+}
+
+.container__botao {
+    display: none;
 }
 
 .container__botao:checked ~ .lista-menu {
