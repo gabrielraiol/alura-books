@@ -83,12 +83,25 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
+            loop: true,
             spaceBetween: 10,
-            slidesPerView: 2.5,
+            slidesPerView: 2.3,
+            centeredSlides: true,
+
+            autoplay: {
+            delay: 2500,
+            },
+
             pagination: {
                 el: '.swiper-pagination',
                 type: 'bullets'
-                },
+            },
+
+            effect: 'coverflow',
+            coverflowEffect: {
+            rotate: 30,
+            slideShadows: false,
+            }
             }
         );
     </script>
