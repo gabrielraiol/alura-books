@@ -24,3 +24,70 @@
 .swiper-pagination-bullet-active {
     background: var(--cor-texto);
 }
+
+.card {
+    background-color: var(--branco);
+    border-radius: 0.625rem;
+    margin: 1.5rem;
+    box-shadow: 0rem 0.4rem 0.5rem grey;
+}
+
+.card__conteudo {
+    display: flex;
+    padding: 1.3rem 1rem;
+    gap: 0.7rem;
+}
+
+.card__descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    color: var(--cor-titulo);
+}
+
+.descricao__titulo-livro {
+    font-weight: 700;
+    font-size: 1.125rem;
+    background: var(--cor-texto);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.descricao__texto {
+    font-size: 0.875rem;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.descricao__icones {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.descricao__icones img{
+    width: 80%;
+}
+
+.card__figuras {
+    display: flex;
+    flex-direction: column;
+}
+
+.figura__botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--branco);
+    background-color: var(--cor-titulo);
+    font-weight: 700;
+    width: 100%;
+    height: 3rem;
+    margin-top: 1.7rem;
+}
