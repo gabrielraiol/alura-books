@@ -11,6 +11,10 @@
     --fonte: 'Poppins', sans serif;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte);
