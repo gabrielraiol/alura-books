@@ -66,8 +66,9 @@
 .descricao__icones {
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
 }
 
 .descricao__icones img{
