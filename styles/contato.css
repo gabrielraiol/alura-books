@@ -30,7 +30,7 @@
     background: url(../assets/Email-logo.svg);
     background-repeat: no-repeat;
     background-position: 0.1rem;
-    padding: 2rem;
+    padding-left: 2rem;
 }
 
 .contato__texto,.contato__titulo, .contato__email { 
