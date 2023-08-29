@@ -98,3 +98,37 @@
     height: 3rem;
     margin-top: 1.7rem;
 }
+
+@media screen and (min-width: 1024px){
+
+    .carrossel__titulo {
+        font-size: 1.625rem;
+    }
+    
+    .swiper-pagination {
+        margin: 2rem 0 3rem 0;
+    }
+
+    .card {
+        width: 60%;
+        margin: 3rem auto;
+    }
+
+    .card__conteudo {
+        gap: 2rem;
+    }
+
+    .descricao__icones {
+        justify-content: flex-start;
+        width: auto;
+        gap: 1rem;
+    }
+
+    .card__figuras {
+        width: 45%;
+    }
+
+    .autora {
+        width: 100%;
+    }
+}

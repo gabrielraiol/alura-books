@@ -121,7 +121,7 @@
                     </div>
                 </div>
 
-                <div class="card_figuras">
+                <div class="card__figuras">
                 <img class="figura__imagem" src="assets/Angular.svg" alt="angular">
                 <a class="figura__botao" href="https://alura.com.br" target="_blank">Saiba Mais</a>
                 </div>
@@ -167,9 +167,9 @@
                     </div>
                 </div>
 
-                <div class="card_figuras">
-                <img width="100%" class="figura__imagem" src="assets/Escritora.png" alt="escritora">
-                <a class="figura__botao" href="https://alura.com.br" target="_blank">Saiba Mais</a>
+                <div class="card__figuras">
+                <img width="100%" class="figura__imagem autora" src="assets/Escritora.png" alt="escritora">
+                <a class="figura__botao botaoautora" href="https://alura.com.br" target="_blank">Saiba Mais</a>
                 </div>
             </div>
         </div>
@@ -224,6 +224,17 @@
             spaceBetween: 10,
             slidesPerView: 2.3,
             centeredSlides: true,
+
+            breakpoints: {
+            1024: {
+                slidesPerView: 3.5,
+                spaceBetween: 35,
+            },
+            1728: {
+                slidesPerView: 4.5,
+                spaceBetween: 45,
+            },
+            },
 
             autoplay: {
             delay: 2500,
