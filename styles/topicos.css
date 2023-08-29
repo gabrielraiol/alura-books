@@ -32,3 +32,24 @@
     background-color: var(--cor-titulo);
     padding: 1rem;
 }
+
+@media screen and (min-width: 1024px) {
+
+    .topicos {
+        padding: 2rem 1rem;
+    }
+
+    .topicos__titulo {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .topicos__lista {
+        gap: 1.5rem;
+    }
+
+    .topicos__lista-link {
+        font-size: 1.5rem;
+        padding: 1.3rem;
+    }
+}
