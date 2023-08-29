@@ -33,3 +33,24 @@
     background-repeat: no-repeat;
     background-position: 0.2rem;
 }
+
+@media screen and (min-width: 1024px) {
+
+    .banner__titulo {
+        font-size: 2.25rem;
+        margin-top: 3rem;
+    }
+
+    .banner__texto {
+        margin: 1rem 0 2rem 0;
+    }
+
+    .banner__busca {
+        width: 50%;
+        margin-bottom: 3rem;
+    }
+
+    .banner__busca::placeholder {
+        font-size: 1rem;
+    }
+}
