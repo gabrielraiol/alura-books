@@ -10,3 +10,36 @@ hr {
 .rodape__titulo {
     color: black;
 }
+
+@media screen and (min-width: 1024px) {
+
+    .rodape {
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem 3rem 3rem 1rem;
+    }
+
+    .rodape__titulo {
+        font-size: 1.5rem;
+    }
+
+    .rodape__lista-titulo {
+        color: #858585;
+        font-size: 0.875rem;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+    }
+
+    .rodape__lista-item {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .rodape__lista-link {
+        text-decoration: none;
+        color: #474646;
+        font-size: 0.875rem;
+    }
+}
