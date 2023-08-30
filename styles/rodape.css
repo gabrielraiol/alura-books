@@ -11,6 +11,10 @@ hr {
     color: black;
 }
 
+.rodape__lista {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
 
     .rodape {
