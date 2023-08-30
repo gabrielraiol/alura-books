@@ -39,3 +39,31 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+@media screen and (min-width: 1024px) {
+
+    .contato {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 3rem 5rem;
+    }
+
+    .contato__descricao {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 1rem;
+        width: 40%;
+    }
+
+    .contato__titulo {
+        font-size: 1.5rem;
+    }
+
+    .contato__email {
+        width: 40%;
+        height: 50%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
