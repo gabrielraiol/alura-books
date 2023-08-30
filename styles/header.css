@@ -25,6 +25,10 @@
     padding: 1rem;
 }
 
+.container__texto {
+    display: none;
+}
+
 .lista-menu {
     display: none;
     position: absolute;
@@ -115,4 +119,28 @@
     .lista-menu {
         width: auto;
     }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .container__imagem {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        text-decoration: none;
+    }
+
+    .container__imagem-transparente {
+        display: none;
+    }
+
+    .container__texto {
+        display: block;
+        color: var(--preto);
+    }
+
+    .opcoes {
+        margin: 0 auto 0 5rem;
+    }
+
 }

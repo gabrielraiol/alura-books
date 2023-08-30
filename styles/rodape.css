@@ -23,6 +23,10 @@ hr {
         padding: 3rem 3rem 3rem 1rem;
     }
 
+    .rodape__lista {
+        display: block;
+    }
+
     .rodape__titulo {
         font-size: 1.5rem;
     }
