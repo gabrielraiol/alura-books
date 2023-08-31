@@ -67,3 +67,12 @@
         margin-bottom: auto;
     }
 }
+
+@media screen and (min-width: 1728px) {
+
+    .contato {
+        justify-content: center;
+        padding: 4rem 25vw;
+    }
+    
+}
