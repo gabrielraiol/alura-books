@@ -84,6 +84,7 @@
 .card__figuras {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .figura__botao {
@@ -96,7 +97,7 @@
     font-weight: 700;
     width: 100%;
     height: 3rem;
-    margin-top: 1.7rem;
+    margin-top: 1.5rem;
 }
 
 @media screen and (min-width: 1024px){
@@ -131,4 +132,52 @@
     .autora {
         width: 100%;
     }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .carrossel__titulo {
+        padding: 3rem 0 3rem 0;
+        font-size: 2rem;
+    }
+
+    .carrossel__container {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        gap: 2rem;
+        padding: 3rem 0 4rem 0;
+    }
+
+    .swiper-pagination {
+        margin: 0;
+        padding-bottom: 1.5rem;
+    }
+
+    .card {
+        margin: auto;
+        width: 80%;
+        height:32vh;
+    }
+
+    .card__conteudo {
+        height: 100%;
+    }
+
+    .descricao__titulo {
+        font-size: 1.5rem;
+    }
+
+    .descricao__texto {
+        font-size: 1rem;
+    }
+
+    .estrelinhas {
+        font-size: 1rem;
+    }
+
+    .card__figuras {
+        width: 70%;
+    }
+
 }
