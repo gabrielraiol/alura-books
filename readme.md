@@ -1,4 +1,4 @@
-<h1>Alura Books | Livraria Digital</h1>
+<h1>Alura Books | Digital Bookstore</h1>
 <br/>
 <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:2.5rem">
     <img src="assets/mobile-page.png" alt="alura-plus" width= 20%>
